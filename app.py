@@ -71,9 +71,9 @@ def resize_image(img, height):
     return resized_img
 
 # Load and resize images
-image_setosa = Image.open("C:/Users/JOHN/Downloads/DataScienceR/session 15/StreamlitProject/Iris_setosa.jpg")
-image_versicolor = Image.open("C:/Users/JOHN/Downloads/DataScienceR/session 15/StreamlitProject/Iris_versicolor_3.jpg")
-image_virginica = Image.open("C:/Users/JOHN/Downloads/DataScienceR/session 15/StreamlitProject/Iris_virginica.jpg")
+image_setosa = Image.open("C:/Users/JOHN/Downloads/DataScienceR/session 15/Iris_Predicter/Iris_setosa.jpg")
+image_versicolor = Image.open("C:/Users/JOHN/Downloads/DataScienceR/session 15/Iris_Predicter/Iris_versicolor_3.jpg")
+image_virginica = Image.open("C:/Users/JOHN/Downloads/DataScienceR/session 15/Iris_Predicter/Iris_virginica.jpg")
 
 resized_setosa = resize_image(image_setosa, desired_height)
 resized_versicolor = resize_image(image_versicolor, desired_height)
