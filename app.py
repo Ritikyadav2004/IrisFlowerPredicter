@@ -5,7 +5,7 @@ from PIL import Image
 import time
 
 # Load the trained model
-with open("model.pkl", "rb") as model_file:
+with open("C:/Users/JOHN/Downloads/DataScienceR/session 15/Iris_Predicter/model.pkl", "rb") as model_file:
     model = pickle.load(model_file)
 
 # Streamlit app title
