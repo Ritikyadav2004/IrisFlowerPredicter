@@ -2,13 +2,13 @@ import streamlit as st
 import pickle
 import numpy as np
 from PIL import Image
-import joblib 
+# import joblib 
 import time
 
 # Load the trained model
-# with open("./model.pkl", "rb") as model_file:
-#     model = pickle.load(model_file)
-model = joblib.load("./model.pkl")
+with open("./model.pkl", "rb") as model_file:
+    model = pickle.load(model_file)
+# model = joblib.load("./model.pkl")
 
 # Streamlit app title
 st.set_page_config(page_title="Iris Species Classifier", page_icon="🌼", layout="wide")
